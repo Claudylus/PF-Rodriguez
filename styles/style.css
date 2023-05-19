@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+/* HEADER */
+.t228__right_descr {
+    padding-right: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+@media only screen and (min-width: 913px) {
+
+    .justify-content-center-1 {
+        justify-content: center;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 912px) {
+    .t228__right_descr {
+        display: none;
+    }
+
+    .justify-content-center-1 {
+        justify-content: end;
+    }
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.subtitulos {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/* IMAGENES DEL INDEX */
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.imagen-1 {
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contenedor-imagen-1 {
+    display: flex;
+    position: relative;
+}
+
+.contenedor-imagen-1 h2 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0d6f0;
+}
+
+.contenedor-imagen-1 p {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+.contenedor-imagen-1:hover img {
+    opacity: 0.5;
+}
+
+.contenedor-imagen-1:hover p {
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 290px) {
+    .imagen-1 {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+
+/* index-seccion 3 SOBRE MI */
+
+
+
+.container p {
+    display: flex;
+    position: relative;
+    top: 30%;
+    margin-bottom: 100px;
+    justify-self: center;
+}
+
+
+#fondo-dos {
+    background-color: #C86FC9;
+}
+
+/* MAPA */
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 350px;
+    position: relative;
+    height: 0;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+@media only screen and (max-width: 912px) {
+    .map-responsive {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 0px;
+    }
+
+}
+
+
+/* HORARIO  */
+.horario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .horario {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .horario-mobile {
+        display: none;
+    }
+
+}
+
+.dia {
+    background-color: #E3A8D8;
+    padding: 10px;
+    text-align: center;
+}
+
+.hora {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.lunes {
+    grid-column: 1;
+}
+
+.martes {
+    grid-column: 2;
+}
+
+.miercoles {
+    grid-column: 3;
+}
+
+.jueves {
+    grid-column: 4;
+}
+
+.viernes {
+    grid-column: 5;
+}
+
+.sabado {
+    grid-column: 6;
+}
+
+.domingo {
+    grid-column: 7;
+}
+
+/* SERVICIOS */
+
+.imagenes-servicios {
+    height: 100%;
+}
+
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+    transform: rotate(90deg);
+}
+
+/* .card-color {
+    background-color: #F8E3EF;
+} */
+
+.justify-text-card {
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .justify-text-card {
+        text-align: left;
+
+    }
+
+}
+
+/* Contacto */
+
+.contacto {
+    margin-left: 5% ;
+}
+
+@media only screen and (max-width: 950px) {
+    .contacto {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+
+.comentarios {
+    margin-left: 4rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 950px) {
+    .comentarios {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Formulario */
+
+.boton-enviar {
+    background-color: rgb(185, 12, 119);
+    border: none;
+}
+
+/* Footer */
+
+@media only screen and (max-width: 650px) {
+    footer {
+        text-align: center;
+    }
+
+}
