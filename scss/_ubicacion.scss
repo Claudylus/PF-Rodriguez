@@ -1,0 +1,64 @@
+// Mapa
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 350px;
+    position: relative;
+    height: 0;
+    width: 100%;
+    margin-bottom: 60px;
+
+    iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+// Horario
+.horario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.dia {
+    background-color: #E3A8D8;
+    padding: 10px;
+    text-align: center;
+}
+
+.hora {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.lunes {
+    grid-column: 1;
+}
+
+.martes {
+    grid-column: 2;
+}
+
+.miercoles {
+    grid-column: 3;
+}
+
+.jueves {
+    grid-column: 4;
+}
+
+.viernes {
+    grid-column: 5;
+}
+
+.sabado {
+    grid-column: 6;
+}
+
+.domingo {
+    grid-column: 7;
+}

@@ -1,0 +1,55 @@
+@media only screen and (max-width: 950px) {
+    .justify-text-card {
+        text-align: left;
+    }
+    .contacto {
+        text-align: center;
+        margin: 0;
+    }
+    .comentarios {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .t228__right_descr {
+        display: none;
+    }
+    .justify-content-center-1 {
+        justify-content: end;
+    }
+    .map-responsive {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .horario {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .horario-mobile {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 650px) {
+    footer {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 290px) {
+    .imagen-1 {
+        width: 250px;
+        height: 250px;
+    }
+}

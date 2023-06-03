@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+.subtitulos {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+    font-weight: 800;
+}
+
+// header
+ 
+header {
+
+    .t228__right_descr {
+        padding-right: 40px;
+        display: table-cell;
+        vertical-align: middle;
+        white-space: nowrap;
+        font-size: 13px;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    
+    }
+
+    .color-telefono {
+        color: $pinkTxt;
+     }
+
+     .justify-content-center-1 {
+        justify-content: center;
+    }
+
+}
+
+// footer
+#fondo-dos {
+    background-color: $purpleBackground;
+}
+
+// sobre mi  LINEA 89
+// .imagen-sobre-mi {
+//     width: 100px;
+//     height: 60px;
+// }

@@ -1,0 +1,68 @@
+@mixin images-index () {
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);    
+}
+
+// imagenes
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.imagen-1 {
+	width: 350px;
+	height: 350px;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 30px;
+}
+.contenedor-imagen-1 {
+	display: flex;
+	position: relative;
+	h2 {
+        @include images-index; 
+		top: 50%;
+		left: 50%;
+		color: $color_1;
+		 
+	}
+
+	p {
+        @include images-index; 
+		top: 70%;
+		left: 50%;
+		opacity: 0;
+		transition: opacity 0.5s ease;
+	}
+	&:hover {
+		img {
+			opacity: 0.5;
+		}
+		
+		p {
+			opacity: 1;
+		}
+	}
+}
+
+// sobre mí
+
+.container {
+	p {
+		display: flex;
+		position: relative;
+		top: 30%;
+		margin-bottom: 100px;
+		justify-self: center;
+
+	.letra-sobre-mi {
+			font-size: 3rem;
+		}	
+	}
+
+
+	
+}
+
+

@@ -41,16 +41,11 @@
                         </div>
                     </div>
                     <div class="t228__right_descr text-end">
-                        Guayaquil
-                        <br>
-                       Lunes-viernes: 8:30-17:30 
-                        <br>
-                        Manta
-                        <br>
-                        Sábados: 8:30-13:00
-                        <br>
-                        <a href="tel:+593 999 841 316" rel="noopener            noreferrer"
-                            style="color: rgb(185, 12, 119);">Telf.
+                        <p class="mb-0">Guayaquil</p>
+                        <p class="mb-0">Lunes-viernes: 8:30-17:30</p>
+                        <p class="mb-0">Manta</p>
+                        <p class="mb-0">Sábados: 8:30-13:00</p>
+                        <a href="tel:+593 999 841 316" rel="noopener noreferrer" class="color-telefono">Telf.
                             :+593 999 841 316</a>
                     </div>
                 </div>
@@ -65,15 +60,15 @@
             <div class="row mx-0">
                 <div class="col-xs-12 text-center imagenes-servicios my-3">
                     <!-- SERVICIO 1. Consulta -->
-                    <img class="rounded-circle" src="../images/flores.png" alt="cita ginecologica">
+                    <img id="consulta" class="rounded-circle" src="../images/imagen-servicios-1.png"
+                        alt="cita ginecologica">
                 </div>
-                <h2 class="h3 text-center mt-3 mb-5"> Consulta ginecológica</h2>
+                <h2 id="consulta" class="h3 text-center mt-3 mb-5"> Consulta ginecológica</h2>
 
                 <div class="card border-0">
                     <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
                         <div class="col">
                             <div class="card h-100">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
                                 <div class="card-body">
                                     <h3 class="card-title h5"> Control ginecólogico de adolescentes</h3>
                                     <p class="card-text ">Evaluación integral de la adolescente sana o con alguna
@@ -109,8 +104,8 @@
 
                                 <div class="card-body">
                                     <h3 class="card-title h5">Colposcopia</h3>
-                                    <p class="card-text justify-text-card">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Fugit mollitia animi</p>
+                                    <p class="card-text justify-text-card">Realización de video Colposcopia para
+                                        detectar de manera precoz lesiones del cuello uterino</p>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +126,8 @@
                 <!-- SERVICIO 2. Embarazo -->
                 <div class="col-xs-12 text-center">
 
-                    <img class="rounded-circle  imagenes-servicios" src="../images/flores.png" alt="cita ginecologica">
+                    <img id="embarazo" class="rounded-circle  imagenes-servicios" src="../images/imagen-servicios-2.png"
+                        alt="embarazo">
                 </div>
 
                 <h2 class="h3 text-center mt-3 mb-5"> Embarazo</h2>
@@ -177,18 +173,21 @@
                             <div class="card h-100">
                                 <div class="card-body justify-text-card">
                                     <h3 class="card-title h5">Ecógrafia morfogenetica (Primer trimestre)</h3>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Se realiza entre las 11 semanas y 13,6 semanas de embarazo y
+                                        permite detectar o descartar marcadores ecograficos que indican la presencia de
+                                        trastornos cromosómicas fetales como por ejemplo el Síndrome de
+                                        Down, entre otros</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card h-100">
                                 <div class="card-body justify-text-card">
-                                    <h3 class="card-title h5">Ecógrafia morfogenetica (Primer trimestre)</h3>
-                                    <p class="card-text">This is a longer card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <h3 class="card-title h5">Ecógrafia morfogenetica (Segundo trimestre)</h3>
+                                    <p class="card-text">Se realiza entre las 19 y 22 semanas de embarazo, permite
+                                        evaluar la anatomía fetal, descartando la presencia de marcadores de trastornos
+                                        cromosómicos igualmente se realiza la evaluación adecuada del corazón fetal .
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -196,9 +195,9 @@
                             <div class="card h-100">
                                 <div class="card-body justify-text-card">
                                     <h3 class="card-title h5">Control de embarazo de bajo y alto riesgo</h3>
-                                    <p class="card-text">This is a longer card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Control de pacientes con antecedentes de complicación en
+                                        embarazos previos ,o bien, con presencia de alguna enfermedad de base tal como
+                                        diabetes, hipertensión arterial, hipotiroidismo, entre otras.</p>
                                 </div>
                             </div>
                         </div>
@@ -206,9 +205,13 @@
                             <div class="card h-100">
                                 <div class="card-body justify-text-card">
                                     <h3 class="card-title h5">Estudio de pareja infertil</h3>
-                                    <p class="card-text">Evaluación integral de la paciente que no ha logrado embarazo en un año de vida sexual sin anticoncepcion, o de la pareja que desea tener niños y no lo ha logrado. 
-                                    <br>
-                                    La consulta incluye interrogatorio , evaluación física completa y ecografia pelvica o transvaginal</p>
+                                    <p class="card-text">Evaluación integral de la paciente que no ha logrado embarazo
+                                        en un año de vida sexual sin anticoncepcion, o de la pareja que desea tener
+                                        niños y no lo ha logrado.
+                                        <br>
+                                        La consulta incluye interrogatorio , evaluación física completa y ecografia
+                                        pelvica o transvaginal
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -217,8 +220,8 @@
                 <!-- Servicio 3. Anticoncepcion -->
 
                 <div class="col-xs-12 text-center">
-
-                    <img class="rounded-circle  imagenes-servicios" src="../images/flores.png" alt="cita ginecologica">
+                    <img id="anticoncepcion" class="rounded-circle  imagenes-servicios"
+                        src="../images/imagen-servicios-3.png" alt="anticoncepcion">
                 </div>
 
                 <h2 class="h3 text-center mt-3 mb-5"> Anticoncepción</h2>
@@ -229,17 +232,17 @@
                             <div class="card h-100">
                                 <div class="card-body justify-text-card">
                                     <h3 class=" h5 card-title">Planificación familiar</h3>
-                                    <p class="card-text ">Evaluación integral de la paciente indicando el anticonceptivo más adecuado según sus antecedentes y examen físico. </p>
+                                    <p class="card-text ">Evaluación integral de la paciente indicando el anticonceptivo
+                                        más adecuado según sus antecedentes y examen físico. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card h-100">
                                 <div class="card-body ">
-                                    <h3 class="h5 card-title justify-text-card">Colocacion y retiro de Implante subdermico y Dispositivo intrauterino (t de cobre)</h3>
-                                    <p class="card-text">This is a longer card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <h3 class="h5 card-title justify-text-card">Colocacion y retiro de Implante
+                                        subdermico y Dispositivo intrauterino (t de cobre)</h3>
+                                    <p class="card-text"></p>
                                 </div>
                             </div>
                         </div>
@@ -249,25 +252,28 @@
 
                 <div class="col-xs-12 text-center">
 
-                    <img class="rounded-circle  imagenes-servicios" src="../images/flores.png" alt="cita ginecologica">
+                    <img id="menopausia" class="rounded-circle  imagenes-servicios"
+                        src="../images/imagen-servicios-4.png" alt="menopausia">
                 </div>
 
                 <h2 class="h3 text-center mt-3 mb-5"> Menopausia</h3>
 
-                <div class="card border-0">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
-                            <div class="card mb-5">
-                                <div class="card-body">
-                                    <h3 class="card-title h3">Card title</h3>
-                                    <p class="card-text">This is a longer card with supporting text below as a
-                                        natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card border-0">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card mb-5">
+                                    <div class="card-body">
+                                        <h3 class="card-title h3">Menopausia</h3>
+                                        <p class="card-text">La menopausia es una nueva etapa en la vida de la mujer en
+                                            la cual ocurre el cese de la menstruación de manera definitiva, esta puede
+                                            ser hermosa si sabemos cómo llevarla. Te ayudaré a atravesar está línea de
+                                            cambio de la mejor manera indicándome que hacer para mantenerte
+                                            activa sana y feliz</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
     </main>
@@ -308,48 +314,39 @@
                     <!-- COLUMNA 3-contactos -->
                     <div class="col-xs-12 col-md-6 col-lg-3">
                         <p class="h5 mb-3">Contacto</p>
-
-                        Guayaquil, Guayas, Ecuador
-                        <br>
-                        Lunes-viernes
-                        <br>
-                        Horario: 8:30-17:30
-                        <br>
-                        <br>
-                        Manta, Manabí, Ecuador
-                        <br>
-                        Sábados
-                        <br>
-                        Horario: 8:30-13:00
-                        <br>
-                        <br>
-                        ¡Agenda tu cita!
-                        <br>
+                        <b class="mb-2"> Guayaquil</b>
+                        <p class="mb-2">Lunes-viernes: 8:30-17:30</p>
+                        <b class="mb-2">Manta</b>
+                        <p class="mb-2">Sábados: 8:30-13:00</p>
                         <a href="tel:+593 999 841 316" rel="noopener noreferrer"
                             style="color: rgb(255, 255, 255);">Telf. :+593 999
                             841 316</a>
-
-
                     </div>
-                    <!-- Columna 4 redes -->
+                    <!-- COLUMNA 4 -redes -->
                     <div class="col-xs-12 col-md-6 col-lg-3">
                         <p class="h5 mb-3">Redes</p>
 
                         <a href="https://www.facebook.com/luisacolinasoto" target="_blank"><i
-                                class="fa-brands fa-facebook fa-xl" style="color: #134294;"></i></a>
+                                class="fa-brands fa-facebook fa-xl" style="color: #000000;"></i></a>
 
                         <a href="https://instagram.com/draluisacolina?igshid=YmMyMTA2M2Y=" target="_blank"><i
-                                class="fa-brands fa-instagram fa-xl" style="color: #b70845;"></i></a>
+                                class="fa-brands fa-instagram fa-xl" style="color: #000000;"></i></a>
+
+
+                        <a href="https://www.linkedin.com/in/luisa-colina-88742867/" target="_blank"><i
+                                class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i></a>
+
+                        <a href="https://www.youtube.com/@deginecologiasehablaasi6769" target="_blank"><i
+                                class="fa-brands fa-youtube fa-xl" style="color: #000000;"></i></a>
 
                         <a href="https://wa.me/+593999841316" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"
-                                style="color: #239a31;"></i></a>
-                    </div>
+                                style="color: #000000;"></i></a>
 
-                    <div class="col-xs-12 pt-5">
-                        <p class="text-light text-center"> Copyright - All rights reserved</p>
                     </div>
+                    <span class="col-xs-12 pt-5">
+                        <p class="text-light text-center"> Copyright - All rights reserved</p>
+                    </span>
                 </div>
-            </div>
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
