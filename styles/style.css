@@ -1,8 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subtitulos {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: 800;
+}
+
+.letra-chica {
+  font-weight: 600;
 }
 
 header .t228__right_descr {
@@ -27,14 +42,12 @@ header .justify-content-center-1 {
   background-color: #C86FC9;
 }
 
-a {
-  text-decoration: none;
+.color-footer {
+  color: white;
 }
 
-.subtitulos {
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.letra-footer {
+  font-weight: 700;
 }
 
 .contenedor {
@@ -85,6 +98,7 @@ a {
   top: 30%;
   margin-bottom: 100px;
   justify-self: center;
+  text-align: justify;
 }
 
 .map-responsive {
@@ -172,6 +186,22 @@ a {
   border: none;
 }
 
+#color-telefono {
+  color: rgb(185, 12, 119);
+}
+
+.texto-sobre-mi {
+  text-align: justify;
+}
+
+#img-sobre-mi-1 {
+  padding-top: 9rem;
+}
+
+#img-sobre-mi-2 {
+  padding-top: 2rem;
+}
+
 @media only screen and (max-width: 950px) {
   .justify-text-card {
     text-align: left;
@@ -186,10 +216,10 @@ a {
   }
 }
 @media only screen and (max-width: 912px) {
-  .t228__right_descr {
+  header .t228__right_descr {
     display: none;
   }
-  .justify-content-center-1 {
+  header .justify-content-center-1 {
     justify-content: end;
   }
   .map-responsive {

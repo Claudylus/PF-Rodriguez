@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
 
 
 * {
@@ -17,6 +17,12 @@ a {
 	padding-bottom: 60px;
     font-weight: 800;
 }
+
+.letra-chica {
+	font-weight:600;
+   
+}
+
 
 // header
  
@@ -46,12 +52,17 @@ header {
 }
 
 // footer
+
+
 #fondo-dos {
     background-color: $purpleBackground;
 }
 
-// sobre mi  LINEA 89
-// .imagen-sobre-mi {
-//     width: 100px;
-//     height: 60px;
-// }
+.color-footer {
+    color: $redes;
+}
+
+.letra-footer {
+    font-weight: 700;
+}
+

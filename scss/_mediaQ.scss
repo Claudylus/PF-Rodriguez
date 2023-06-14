@@ -10,13 +10,15 @@
         margin: 0;
         margin-bottom: 2rem;
     }
+
 }
 
+
 @media only screen and (max-width: 912px) {
-    .t228__right_descr {
+    header .t228__right_descr {
         display: none;
     }
-    .justify-content-center-1 {
+    header .justify-content-center-1 {
         justify-content: end;
     }
     .map-responsive {
@@ -24,6 +26,7 @@
         height: 350px;
         margin-bottom: 0px;
     }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -36,15 +39,15 @@
     .horario-mobile {
         display: none;
     }
-
+    
+    
 }
-
 
 @media only screen and (max-width: 650px) {
     footer {
         text-align: center;
     }
-
+    
 }
 
 @media only screen and (max-width: 290px) {
@@ -53,3 +56,4 @@
         height: 250px;
     }
 }
+
