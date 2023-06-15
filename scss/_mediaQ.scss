@@ -2,15 +2,24 @@
     .justify-text-card {
         text-align: left;
     }
+
     .contacto {
         text-align: center;
         margin: 0;
     }
+
     .comentarios {
         margin: 0;
         margin-bottom: 2rem;
     }
 
+    #img-sobre-mi-1 {
+        display: none !important;
+    }
+
+    #img-sobre-mi-2 {
+        padding-top: 11rem;
+    }
 }
 
 
@@ -18,9 +27,11 @@
     header .t228__right_descr {
         display: none;
     }
+
     header .justify-content-center-1 {
         justify-content: end;
     }
+
     .map-responsive {
         width: 100%;
         height: 350px;
@@ -33,21 +44,25 @@
     .horario {
         display: none;
     }
+
+    #img-sobre-mi-2 {
+        padding-top: 2rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .horario-mobile {
         display: none;
     }
-    
-    
+
+
 }
 
 @media only screen and (max-width: 650px) {
     footer {
         text-align: center;
     }
-    
+
 }
 
 @media only screen and (max-width: 290px) {
@@ -56,4 +71,3 @@
         height: 250px;
     }
 }
-
