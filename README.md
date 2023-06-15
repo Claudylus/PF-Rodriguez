@@ -11,7 +11,7 @@ Hola, soy Claudylus y estoy adentrándome en el creativo mundo del desarrollo we
 ## Estética 
 
 Con el objetivo de mantener una estética femenina, he elegido una combinación de tonos pasteles y un toque de fucsia en la paleta de colores de la página web. Además, todas las ilustraciones se han creado en colores pasteles, brindando un toque adicional de delicadeza.
-## Lenguajes y teconologías
+## Lenguajes y tecnologías
 
 * HTML
 * CSS
